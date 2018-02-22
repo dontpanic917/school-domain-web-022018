@@ -17,6 +17,6 @@ class School
   end
 
   def sort
-    @roster = @roster.map{|k,v| k => v.sort}
+    @roster = @roster.map{|k,v| k = v.sort}
   end
 end
