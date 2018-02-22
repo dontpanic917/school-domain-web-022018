@@ -17,6 +17,6 @@ class School
   end
 
   def sort
-  @roster.sort{|k,v|v.sort}.to_h
+  @roster.map{|k,v|v.sort}.to_h
   end
 end
